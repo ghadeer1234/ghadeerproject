@@ -2,29 +2,50 @@
 just another repository
 <html>
  <head>
-  <title> Muscat international airport - Sign up </title>
+  <title> New Document </title>
+ </head>
+<style>
+  form
+  {
+  width:600px;
+  margin:50px auto;
+  }
+  h4
+  {
+  padding:5px;
+  width:300px;
+  background-color:#ff00ff;
+  margin-left:140px;
+  }
+  </style>
 
- <h2>Sign up</h2>
- <form name="frm">
- <label>First Name</label><br>
- <input type = "text" name="first"><br>
- <label>Last Name</label><br>
- <input type = "text"name="last"><br>
- <label>Mobile Number</label><br>
- <input type = "text" name="mobile"><br>
- <label>Password</label><br>
- <input type = "password"name="pass"><br>
- <label>Email</label><br>
- <input type = "Email"name="email"><br>
- <label>Gender :</label>
- <input type ="radio" name="gender">Male
- <input type ="radio" name="gender">Female
+ <body>
+  <form>
+ <h4 align="center">Create Your Google account</h4>
+ <label>Name</label>
+ <input type ="text" style="margin-left:150px;" size=45>
  <br><br>
-<input type ="checkbox">I Agree To The Terms of Use<br><br>
- <input type = "submit" value = "Create my account" onclick="f(),l(),m(),p(),e()"><br>
-<p>Already have an account?<a href="login.html"> Login</a></p><br>
+ <label>Chose Your User Name</label>
+ <input type ="text" style="margin-left:35px;" size=45>
+ <br><br>
+ <label>Create your Password</label>
+ <input type ="text" style="margin-left:46px;" size=45>
+ <br><br>
+ <label>Gender</label>
+ <input type ="radio" name ="gendr" style="margin-left:160px;">Male
+ <input type ="radio" name ="gendr" style="margin-left:10px;">Female
+ <br><br>
+ <label>Your Current email id</label><input type ="text" style="margin-left:50px;" size=45>
+ <br><br>
+ <label>Location</label>
+
+ <select style="margin-left:130px;">
+ <option>Muscat</option>
+ </select>
+ <br><br>
+
+ <input type ="submit" value ="Submit" style="margin-left:190px; border: solid 2px" onclick="fan()">
+ <input type ="reset" value ="Reset" style="margin-left:50px; border: solid 2px">
  </form>
- 
  </body>
 </html>
-    
